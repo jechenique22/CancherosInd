@@ -1,0 +1,55 @@
+.careers-hero {
+    background: linear-gradient(#000000b3, #000000b3),
+        url('../assets/images/careers-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 0;
+}
+
+.careers-form {
+    background-color: #f8f9fa;
+}
+
+.card {
+    /* border-radius: 1rem; */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-control,
+.form-select {
+    padding: 0.75rem;
+    /* border-radius: 0.5rem; */
+    /* border: 1px solid #dee2e6; */
+    transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #344792;
+    box-shadow: 0 0 0 0.25rem rgba(52, 71, 146, 0.25);
+}
+
+.btn-primary {
+    background-color: #344792;
+    border-color: #1b2f7d;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #283679;
+    border-color: #283679;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 54, 121, 0.3);
+}
+
+.lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
